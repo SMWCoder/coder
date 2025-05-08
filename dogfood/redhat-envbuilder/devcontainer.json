@@ -1,0 +1,8 @@
+{
+  "name": "Red Hat Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "runArgs": ["--cap-add=SYS_PTRACE"]
+}
